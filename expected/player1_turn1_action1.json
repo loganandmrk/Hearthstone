@@ -1,0 +1,25 @@
+{
+    "players": [
+        {
+            "health": 30,
+            "mana": 0,
+            "deck": [6, 3, 5, 1, 5, 1, 4, 2],
+            "hand": [6, 3, 4],
+            "battlefield": [
+                {
+                    "name": "Argent Squire",
+                    "attack": 1,
+                    "health": 1,
+                    "abilities": ["Divine Shield"]
+                }
+            ]
+        },
+        {
+            "health": 30,
+            "mana": 0,
+            "deck": [5, 4, 3, 6, 2, 1, 3, 1],
+            "hand": [6, 5, 2, 4, 0],
+            "battlefield": []
+        }
+    ]
+}

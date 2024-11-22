@@ -1,0 +1,50 @@
+{
+    "players": [
+        {
+            "health": 30,
+            "mana": 0,
+            "deck": [1, 5, 1, 4, 2],
+            "hand": [4, 6, 3],
+            "battlefield": [
+                {
+                    "name": "Argent Squire",
+                    "attack": 1,
+                    "health": 1,
+                    "abilities": []
+                },
+                {
+                    "name": "Ooze",
+                    "attack": 1,
+                    "health": 1,
+                    "abilities": ["Taunt"]
+                },
+                {
+                    "name": "Loot Hoarder",
+                    "attack": 2,
+                    "health": 1,
+                    "abilities": []
+                },
+                {
+                    "name": "Spellbreaker",
+                    "attack": 4,
+                    "health": 3,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "health": 29,
+            "mana": 3,
+            "deck": [2, 1, 3, 1],
+            "hand": [5, 2, 5, 4, 3, 6],
+            "battlefield": [
+                {
+                    "name": "Ancient Watcher",
+                    "attack": 4,
+                    "health": 3,
+                    "abilities": ["Passive"]
+                }
+            ]
+        }
+    ]
+}

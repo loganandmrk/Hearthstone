@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.8">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="2316" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-43" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hV2pkFC1rvaTdkJzAZX2-47" target="hV2pkFC1rvaTdkJzAZX2-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="240" as="sourcePoint" />
+            <mxPoint x="180" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-44" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;Card" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="40" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Minion&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="240" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Spell&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-49" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hV2pkFC1rvaTdkJzAZX2-48" target="hV2pkFC1rvaTdkJzAZX2-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="250" as="sourcePoint" />
+            <mxPoint x="189.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="60" y="68" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-51" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;card_name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;mana cost&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;type (spell or minion)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="68" width="210" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="60" y="122" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-53" value="__init__(self, card_name, mana_cost, type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="266" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-55" value="abilities" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="274" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-56" value="minion_attack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="290" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-57" value="minion_health" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="310" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="336" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-60" value="__init__(self, card_name, mana_cost, type, abilities, minion_attack, minion_health)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="344" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-61" value="atttack_character(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="400" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-62" value="take_damage(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="426" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="160" y="266" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-64" value="effect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="274" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="160" y="299" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-66" value="__init__(self, card_name, mana_cost, type, effect)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="307" width="220" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-67" value="do_effect(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="344" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-68" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Battlefield&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;player_minions&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;minion_data&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;minion_damage&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;turn_number&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;max_minions&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__init__(self, player_minions, minion_data, minion_damage, turn_number&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;battlefield_stats(self)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;target(self)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;remove_minion(self)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-69" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hV2pkFC1rvaTdkJzAZX2-47" target="hV2pkFC1rvaTdkJzAZX2-68">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="60" y="470" as="sourcePoint" />
+            <mxPoint x="180" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-70" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Hero&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;hero_name&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;max_health&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;max_hand&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;hero_power&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;mana&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;available_mana&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;cards_in_hand&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;cards_in_deck&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;weapon&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;armor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;attack&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;__init__(self, hero_name, max_health, max_hand, hero_power, mana, available_mana, cards_in_hand, cards_in_deck, weapon, armor, attack)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;use_hero_power(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;play_card(self, card)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;attack_with_hero(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;draw_card(self, number)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;spend_mana(self, spent)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;gain_mana_crystal(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fatigue_draw(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;take_damage(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;equip_weapons(self)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;gain_armor(self)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="210" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hV2pkFC1rvaTdkJzAZX2-71" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hV2pkFC1rvaTdkJzAZX2-70" target="hV2pkFC1rvaTdkJzAZX2-68">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="480" y="380" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

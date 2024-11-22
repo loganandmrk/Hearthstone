@@ -1,0 +1,44 @@
+{
+    "players": [
+        {
+            "health": 30,
+            "mana": 0,
+            "deck": [3, 5, 1, 5, 1, 4, 2],
+            "hand": [6, 4, 6],
+            "battlefield": [
+                {
+                    "name": "Argent Squire",
+                    "attack": 1,
+                    "health": 1,
+                    "abilities": []
+                },
+                {
+                    "name": "Bilefin Tidehunter",
+                    "attack": 2,
+                    "health": 1,
+                    "abilities": []
+                },
+                {
+                    "name": "Ooze",
+                    "attack": 1,
+                    "health": 1,
+                    "abilities": ["Taunt"]
+                }
+            ]
+        },
+        {
+            "health": 30,
+            "mana": 0,
+            "deck": [6, 2, 1, 3, 1],
+            "hand": [5, 2, 5, 4, 3],
+            "battlefield": [
+                {
+                    "name": "Ancient Watcher",
+                    "attack": 4,
+                    "health": 5,
+                    "abilities": ["Passive"]
+                }
+            ]
+        }
+    ]
+}

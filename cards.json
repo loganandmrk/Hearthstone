@@ -1,0 +1,54 @@
+[
+    {
+        "cost": 0,
+        "name": "The Coin",
+        "text": "Gain 1 mana crystal this turn only."
+    },
+    {
+        "cost": 0,
+        "name": "Wisp",
+        "rarity": "common",
+        "attack": 1,
+        "health": 1
+    },
+    {
+        "cost": 1,
+        "name": "Argent Squire",
+        "rarity": "common",
+        "text": "Divine Shield",
+        "attack": 1,
+        "health": 1
+    },
+    {
+        "cost": 2,
+        "name": "Bilefin Tidehunter",
+        "rarity": "common",
+        "text": "Battlecry: Summon a 1/1 Ooze with Taunt.",
+        "attack": 2,
+        "health": 1
+    },
+    {
+        "cost": 2,
+        "name": "Ancient Watcher",
+        "rarity": "rare",
+        "text": "Can't attack",
+        "attack": 4,
+        "health": 5
+    },
+    {
+        "cost": 4,
+        "name": "Spellbreaker",
+        "rarity": "common",
+        "text": "Battlecry: Silence a minion",
+        "attack": 4,
+        "health": 3
+    },
+    {
+        "cost": 2,
+        "name": "Loot Hoarder",
+        "rarity": "common",
+        "text": "Deathrattle: Draw a card.",
+        "attack": 2,
+        "health": 1
+    }
+]
