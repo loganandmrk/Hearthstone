@@ -1,18 +1,11 @@
-from card import Minion
+from card import Minion, Spell
 from hero import Hero
 
-class Battlefield(Minion, Hero):
-    def __init__(self, player_minions, minion_data, minion_damage, max_minions, turn_number = 0):
-        self.player_minions = player_minions
-        self.minion_data = minion_data
-        self.minion_damage = minion_damage
-        self.max_minions = max_minions
-        self.turn_number = turn_number
+class Collection(Minion, Spell, Hero):
+    def __init__(self, collection = [{}], current_filters = ['']):
+        pass
     
     def battlefield_stats(self):
-        pass
-
-    def target(self):
         pass
 
     def remove_minion(self):
