@@ -1,1 +1,9 @@
-wisp,0,minion,1,1,
+"wisp","minion",0,,1,1
+"fireball","spell",4,"deal 4 damage"
+"loot hoarder","minion",2,"deathrattle: draw a card",2,1
+"sylvanas windrunner","hero","rogue",30,"equip a 1/2 dagger"
+"sylvanas windrunner","minion",6,"deathrattle: take control of a random enemy minion",5,5
+"jaina proudmoore","hero","mage",30,"deal 1 damage to any target"
+"arcane intelect","spell",3,"draw 2 cards"
+"arcane artificer","minion",1,"whenever you cast a spell, gain 1 armor",1,2
+"elven archer","minion",1,"battlecry: deal 1 damage",1,1

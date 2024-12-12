@@ -7,6 +7,19 @@ class Card(ABC):
         self.mana_cost = mana_cost
         self.type = type
 
+    def get_name(self):
+        pass
+
+    def get_cost(self):
+        pass
+
+    def get_type(self):
+        pass
+
+    @abstractmethod
+    def get_action(self):
+        pass
+
 class Minion(Card):
 
     def __init__(self, card_name: str = '', mana_cost: int = 0, type: str = '', minion_attack: int = 0, minion_health: int = 0, abilities: str = ''):
@@ -15,8 +28,12 @@ class Minion(Card):
         self.minion_health = minion_health
         self.abilities = abilities
     
-    def __str__(self):
-        return f"{self.card_name, self.mana_cost, self.type, self.minion_attack, self.minion_health, self.abilities}"
+    def get_action(self):
+        """gets the minions abilities"""
+        return self.abilities
+    
+    def __repr__(self):
+        return f"name='{self.card_name}', mana_cost={self.mana_cost}, abilities='{self.abilities}', attack={self.minion_attack}, defense={self.minion_health}"
 
 
 
@@ -25,6 +42,10 @@ class Spell(Card):
     def __init__(self, card_name: str = '', mana_cost: int = 0, type: str = '', effect: str = ''):
         super().__init__(card_name, mana_cost, type)
         self.effect = effect
+
+    def get_action(self):
+        """get the spells effect"""
+        return self.effect
     
-    def __str__(self):
-        return f"{self.card_name, self.mana_cost, self.type, self.effect}"
+    def __repr__(self):
+        return f"name='{self.card_name}', mana_cost={self.mana_cost}, abilities='{self.effect}'"
