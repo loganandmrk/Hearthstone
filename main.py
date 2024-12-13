@@ -1,36 +1,29 @@
 
-from hero import Hero
-from card import Minion, Spell
+from card import Minion, Spell, Collection, Hero
 import csv
 
 def main():
 
     with open("cards.csv", "r") as data:
         rows = csv.reader(data)
-
-        heroes = []
-        minions = []
-        spells = []
+        collection = Collection()
 
         for row in rows:
-            if row[1] == "hero":
-                name, type, hero_class, health, ability = row
-                hero = Hero(name, type, hero_class, int(health), ability)
-                heroes.append(hero)
-            elif row[1] == "minion":
-                name, type, mana_cost, abilities, attack, health = row
-                minion = Minion(name, int(mana_cost), type, int(attack), int(health), abilities)
-                minions.append(minion)
-            elif row[1] == "spell":
-                name, type, mana_cost, effect = row
-                spell = Spell(name, type, int(mana_cost), effect)
-                spells.append(spell)
-        card_list = heroes + minions + spells
+            if row[1].lower() == "hero":
+                name, hero_type, hero_class, health, ability = row
+                hero = Hero(name, hero_type, hero_class, int(health), ability)
+                collection.add(hero)
+            elif row[1].lower() == "minion":
+                name, card_type, mana_cost, abilities, attack, health = row
+                minion = Minion(name, int(mana_cost), card_type, int(attack), int(health), abilities)
+                collection.add(minion)
+            elif row[1].lower() == "spell":
+                name, card_type, mana_cost, effect = row
+                spell = Spell(name, int(mana_cost), card_type, effect)
+                collection.add(spell)
+        print(collection.filter_abilities("damage"))
+        print(collection.filter_mana_cost(3))
+        print(collection.filter_name("Sylvanas Windrunner"))
 
-        for item in range(len(card_list)):
-            if isinstance(card_list[item], Minion) or isinstance(card_list[item], Spell):
-                substring = "damage"
-                if substring in card_list[item].get_action():
-                    print(card_list[item])
 if __name__ == "__main__":
     main()
