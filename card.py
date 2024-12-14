@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 import csv
-import keyboard
 
 class Card(ABC):
     @abstractmethod
@@ -262,7 +261,6 @@ class Collection:
                 for row in rows:
                     if card_name.strip().lower() == row[0].strip().lower() and card_type.strip().lower() == row[1].strip().lower():
                         found = True
-                        print("card found")
                         continue
                     updated_rows.append(row)
                 if found:
@@ -275,4 +273,4 @@ class Collection:
             writer.writerows(updated_rows)
 
     def view_collection(self):
-        print(self.collection_list)
+        return self.collection_list
