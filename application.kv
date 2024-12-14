@@ -1,0 +1,23 @@
+<MainScreen@ScreenManager>:
+    Screen:
+        name: "MainScreen"
+        AnchorLayout:
+            anchor_x: 'left'
+            anchor_y: 'top'
+            StackLayout:
+                size_hint: 1, None
+                Label:
+                    text: "Hello from Kivy language!"
+                    font_size: '40dp'
+                    size_hint: 1, None
+        AnchorLayout:
+            anchor_x: 'left'
+            anchor_y: 'bottom'
+            StackLayout:
+                size_hint: 1, None
+                Label:
+                    size_hint: .15, .75
+                Button:
+                    text: 'I am a button'
+                    size_hint: .25, .5
+                    on_press: print('Button man')

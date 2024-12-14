@@ -3,8 +3,8 @@ options to view cards:
 !text filter: filter through any abilities that contain a specific string
 !mana cost: filter for any cards with a specific mana cost (0 - 6 individually, 7+ grouped together) 
 !name: filter for any cards with a specific name string
-type: filter by type
-attack and health: filter by a minions attack or health
+!type: filter by type
+!attack and health: filter by a minions attack or health
 
 
 options to manage data:
